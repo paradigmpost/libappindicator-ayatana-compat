@@ -1,0 +1,12 @@
+Package: libappindicator-ayatana-compat
+Version: 0.1-1
+Architecture: amd64
+Maintainer: Sam Moore <sam@paradigmpost.com>
+Installed-Size: 11
+Depends: libayatana-appindicator1 (>= 0.5.5)
+Provides: libappindicator1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/paradigmpost/libappindicator-ayatana-compat
+Description: Provides libappindicator1 via libayatana-appindicator1

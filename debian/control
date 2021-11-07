@@ -1,0 +1,17 @@
+Source: libappindicator-ayatana-compat
+Priority: optional
+Maintainer: Sam Moore <sam@paradigmpost.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Section: libs
+Homepage: https://github.com/paradigmpost/libappindicator-ayatana-compat
+Vcs-Browser: https://github.com/paradigmpost/libappindicator-ayatana-compat
+Vcs-Git: https://github.com/paradigmpost/libappindicator-ayatana-compat.git
+Rules-Requires-Root: no
+
+Package: libappindicator-ayatana-compat
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}, libayatana-appindicator1 (>= 0.5.5)
+Provides: libappindicator1
+Description: Provides libappindicator1 via libayatana-appindicator1
